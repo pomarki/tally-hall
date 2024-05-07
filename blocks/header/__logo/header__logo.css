@@ -1,8 +1,39 @@
 .header__logo {
   width: 176px;
   height: 52px;
-  background-image: url(../../../images/header__logo.svg);
-  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header__btn {
+  width: 30px;
+  height: 52px;
+}
+
+.header__btn:hover {
+  cursor: pointer;
+}
+.header__btn_red {
+  width: 30px;
+  height: 52px;
+  background-color: #db3a34;
+}
+
+.header__btn_gray {
+  background-color: #9999a1;
+}
+
+.header__btn_yellow {
+  background-color: #ffc857;
+}
+
+.header__btn_blue {
+  background-color: #084c61;
+}
+
+.header__btn_green {
+  background-color: #72e479;
 }
 
 @media all and (max-width: 512px) {
