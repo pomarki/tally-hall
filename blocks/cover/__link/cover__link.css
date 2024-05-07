@@ -1,0 +1,19 @@
+.cover__link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 0;
+  margin: 0;
+  max-width: 1184px;
+  max-height: 740px;
+  width: 100%;
+  background-color: rgba(42, 44, 47, 0.3);
+  transition: background-color 0.4s linear;
+}
+
+.cover__link:hover {
+  background-color: rgba(42, 44, 47, 0.8);
+}
